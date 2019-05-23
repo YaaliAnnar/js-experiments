@@ -1,0 +1,47 @@
+<html>
+  <body>
+    <table>
+      <tr>
+        <td><p>Rules</p></td>
+        <td>
+          <textarea id="rules" cols="50" rows="10">
+V=[aeiou]
+C=[^aeiou]
+(<C>)(<V>)	$2$1
+</textarea
+          >
+        </td>
+      </tr>
+      <tr>
+        <td><p>Input</p></td>
+        <td>
+          <textarea id="input" cols="50" rows="10">tata</textarea>
+        </td>
+      </tr>
+
+      <tr>
+        <td><p>Output</p></td>
+        <td><textarea id="output" cols="50" rows="10"></textarea></td>
+      </tr>
+
+      <tr>
+        <td><p>Empty Character</p></td>
+        <td>
+          <select id="empty-character">
+            <option value="-">-</option>
+            <option value="0">0</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td>
+          <button type="button" id="button-transliterate">Transliterate</button>
+        </td>
+      </tr>
+    </table>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
