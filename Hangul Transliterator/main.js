@@ -24,23 +24,23 @@ const vowels = [
   "a",
   "ay",
   "ya",
-  "yay",
+  "yai",
   "e",
-  "ey",
+  "ei",
   "ye",
-  "yey",
+  "yei",
   "o",
   "oa",
-  "oay",
+  "oai",
   "oi",
   "yo",
   "u",
   "ue",
-  "uey",
-  "uy",
+  "uei",
+  "ui",
   "yu",
-  "ı",
-  "ıy",
+  "ë",
+  "ëi",
   "i"
 ];
 
@@ -94,7 +94,7 @@ const transliterate = input => {
     .map(toRomaja)
     .join("")
     .replace(/-+/g, "-")
-    .replace(/([aeiouı])-([^aeiouı])/g, "$1$2");
+    .replace(/([aeiouë])-([^aeiouë])/g, "$1$2");
 };
 
 document.getElementById("button-transliterate").onclick = () => {

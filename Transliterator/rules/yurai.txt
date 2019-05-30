@@ -1,0 +1,92 @@
+क	ča
+ख	ša
+ग	ǰa
+घ	ža
+ङ	ńa
+
+च	ka
+छ	ha
+ज	ga
+झ	ɦa
+ञ	ŋa
+
+ट	ca
+ठ	sa
+ड	ja
+ढ	za
+ण	ňa
+
+त	pa
+थ	fa
+द	ba
+ध	va
+न	ma
+
+प	ta
+फ	sa
+ब	da
+भ	ða
+म	na
+
+य	wa
+र	la
+ल	ra
+व	ya
+
+श	ša
+ष	ša
+स	sa
+ह	ha
+
+अ	a
+इ	u
+उ	i
+ऋ	ra
+ऌ	la
+ए	o
+ओ 	e
+
+आ	ä
+ई	ou
+ऊ	ei
+ॠ	rä
+ॡ	lä
+ऐ	au
+औ	ai
+
+a	a
+aि	u
+aु	i
+aृ	ra
+aॢ	la
+aे	o
+aो	e
+
+aा	ä
+aी	ou
+aू	ei
+aॄ	rä
+aॣ	lä
+aै	au
+aौ	ai
+
+a्	-
+ः	s
+ं	N
+ँ	N
+
+N([kghɦŋ])	ŋ$1
+N([čǰšžň])	ň$1
+N([cjszn])	n$1
+N([tdþðn])	n$1
+N([pbfvm])	m$1
+N	ŋ
+
+ā	ä
+V=[aeiouä]
+C=[^aeiouä]
+(<V><C>)a$	$1
+(<V><C>)a(<C><V>)$	$1$2
+
+c	ts
+j	dz

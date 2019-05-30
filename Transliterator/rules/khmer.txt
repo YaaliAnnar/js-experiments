@@ -2,12 +2,12 @@
 ខ	kha
 គ	ga
 ឃ	gha
-ង	nga
+ង	ŋa
 ច	ca
 ឆ	cha
 ជ	ja
 ឈ	jha
-ញ	nya
+ញ	ńa
 ដ	ta
 ឋ	tha
 ឌ	da
@@ -30,7 +30,26 @@
 ស	sa
 ហ	ha
 ឡ	la
-អ	qa
+អ	'a
+ឥ	i
+ឦ	ii
+ឧ	u
+ឩ	uu
+ឪ	uu
+ឫ	rı
+ឬ	rıı
+ឭ	lı
+ឮ	lıı
+ឯ	ä
+ឰ	ee
+ឱ	o
+ឲ	o
+ឳ	oo
+a័	a
+a៊	a
+a្	-
+a៍	-	
+a់	-
 (.)a៌	r$1a
 a៉	a
 aា	aa
@@ -49,9 +68,12 @@ aែ	ä
 aៃ	ëë
 aោ	o
 aៅ	oo
-a្	-
-a់	-
 ំ	m
 ះ	h
+V=[aeiouıëä]
 C=[^aeiouıëä]
 (<C>)h(<C>)	$1$2
+(<V><C>)a$	$1
+(<V><C>)a(<C><V>)	$1 $2
+(<V><C>)a(<C><V>)	$1 $2
+(<V><C>)a(<C><V>)	$1 $2

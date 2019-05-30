@@ -1,0 +1,99 @@
+က	ka
+ခ	kha
+ဂ	ɡa
+ဃ	ɡha
+င	ŋa
+စ	ca
+ဆ	cha
+ဇ	ja
+ဈ	jha
+ဉ	ńa
+ည	ńa
+ဋ	ta
+ဌ	tha
+ဍ	da
+ဎ	dha
+ဏ	na
+တ	ta
+ထ	tha
+ဒ	da
+ဓ	dha
+န	na
+ပ	pa
+ဖ	pha
+ဗ	ba
+ဘ	bha
+မ	ma
+ယ	ya
+ရ	ra
+လ	la
+ဝ	va
+သ	sa
+ဟ	ha
+ဠ	la
+အ	'a
+
+#Medial
+aျ	ya
+aြ	ra
+aွ	va
+([vyr]?)aှ	h$1a
+a္	-
+
+T=[ptck]
+N=[mnńŋy]
+
+#Tone
+(<N>)a်	\$1
+\\(<N>)း	/$1
+(<N>)a့်	$1
+(<T>)a်	$1
+ံ	\m
+\\m့	m
+\\mး	/m
+
+aာ	a\
+aါ	a\
+aိ	i
+aီ	i\
+aု	u
+aူ	u\
+aေ	e\
+aဲ	è/
+e\\ာ	ò/
+e\\ါ	ò/
+iု	o\
+
+#---
+ò/(<T>|[\\/]<N>)	ò$1
+
+o\\(<T>|[\\/]<N>)	ò$1
+
+
+\\့	-
+\\း	/
+/့	-
+/်	\
+
+#Reorthography
+è	ae
+ò	ao
+
+ae/	áe
+ao/	áo
+a/	á
+e/	é
+i/	í
+o/	ó
+u/	ú
+
+ae\\	àe
+ao\\	ào
+a\\	à
+e\\	è
+i\\	ì
+o\\	ò
+u\\	ù
+
+၊	,
+။	.
