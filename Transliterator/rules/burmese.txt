@@ -37,8 +37,11 @@
 aျ	ya
 aြ	ra
 aွ	va
-([vyr]?)aှ	h$1a
+aှ	'a
 a္	-
+
+L=[mnńŋlryv]
+(<L>)'	$1$1
 
 T=[ptck]
 N=[mnńŋy]
